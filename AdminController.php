@@ -39,7 +39,7 @@ class AdminController extends Controller
             'Ad_id' => $request->input('Ad_id'),
             'Ad_Fullname' => $request->input('Ad_Fullname'),
             'Ad_Username' => $request->input('Ad_Username'),
-            //'Ad_password' => $request->input('Ad_password'),
+            'Ad_password' => $request->input('Ad_password'),
             'Ad_Email' => $request->input('Ad_Email'),
             'Ad_DoB' => $request->input('Ad_DoB')
         ];
