@@ -17,5 +17,5 @@
 </div>
 <div class="form-group">
   <label for="Ad_password" class="font-weight-bold">Password</label>
-  <input type="password" class="form-control" id="Ad_password" name="Ad_password" placeholder="Enter your password to submit"  value="{{old('Ad_password')?? $admin->Ad_password}}">
+  <input type="password" class="form-control" id="Ad_password" name="Ad_password" placeholder="please enter the password"  value="{{old('Ad_password')?? $admin->Ad_password}}">
 </div>
